@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Ignorar carpetas generadas por Cypress
+/cypress/screenshots
+/cypress/videos
+/cypress/reports
+/node_modules
+
+# Ignorar archivos específicos generados por Cypress
+# Por ejemplo:
+# cypress/results/mocha/*.json
+
+# Ignorar archivos específicos generados por Cypress (si los tienes)
+# Por ejemplo:
+# cypress/logs/*.log

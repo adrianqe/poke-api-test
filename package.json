@@ -1,0 +1,18 @@
+{
+  "name": "poke-api-test",
+  "version": "1.0.0",
+  "description": "API automation testing using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "html-report": "cypress run --spec cypress/e2e/api/*.js --browser edge --headed"
+  },
+  "author": "Grupo 4 QA",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.2",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
