@@ -14,7 +14,7 @@ Before running the tests, make sure you have the following installed in your dev
 To get started, you need to install the project dependencies. Run the following command:
 
 
-npm install
+`npm install`
 
 ## Running the Tests
 
